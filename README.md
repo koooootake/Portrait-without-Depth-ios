@@ -1,4 +1,4 @@
-# Portrate-iOS
+# Portrate-without-Depth-iOS
 [![MIT License](http://img.shields.io/badge/license-MIT-green.svg?style=flat)](LICENSE)
 [![Twitter](https://img.shields.io/badge/twitter-@koooootake-blue.svg?style=flat)](http://twitter.com/koooootake)
 
