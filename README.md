@@ -11,7 +11,7 @@ Try Swift 2019 demo app that converts Depth-less 2D images into Portrait mode.
 ## About this app
 In iOS’s Portrait mode, you can take beautiful photos that keep your subject sharp while blurring the background. This so-called bokeh effect can be done by using Depth.
 
-On contrast, this app attempts to make Depth-less 2D images into Portrait mode by following steps.
+In contrast, this app attempts to make Depth-less 2D images into Portrait mode by following steps.
 
 ### 1. Segmentation
 This app uses “GrabCut” to perform segmentation of the subject and the background.
