@@ -1,4 +1,4 @@
-# Portrait-without-Depth-iOS
+# Portrait-without-Depth-ios
 [![MIT License](http://img.shields.io/badge/license-MIT-green.svg?style=flat)](LICENSE)
 [![Twitter](https://img.shields.io/badge/twitter-@koooootake-blue.svg?style=flat)](http://twitter.com/koooootake)
 
@@ -35,7 +35,7 @@ As it’s not beautiful if the subject color leaks into the background, this app
 
 ### 3. Depth-of-Field 📷
 “Depth-of-Field” is the range where the photo is in focus.  
-This app uses the function to control to blur areas that are not in focus.
+I implemented an adjusting function to blur an area.
 
 #### Adjust
 ![adjust-depth-of-field](https://user-images.githubusercontent.com/12197538/54493410-1a8a7a80-4913-11e9-8e60-e824ba97f06e.gif)
