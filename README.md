@@ -2,14 +2,15 @@
 [![MIT License](http://img.shields.io/badge/license-MIT-green.svg?style=flat)](LICENSE)
 [![Twitter](https://img.shields.io/badge/twitter-@koooootake-blue.svg?style=flat)](http://twitter.com/koooootake)
 
-Try Swift 2019 demo app that converts Depth-less 2D images into Portrait mode.
+try! Swift 2019 demo app that converts Depth-less 2D images into Portrait mode.
 
 ## How to build
-1. Download `opencv2.framework` from [here](https://opencv.org/releases.html), then put it into this folder.
-2. Open `Portrait.xcworkspace` with Xcode 10.x and build it ✨
+1. Download `opencv2.framework` from [here](https://opencv.org/releases.html) v3.4.5, then put it into this folder.
+2. Open `Portrait.xcworkspace` with Xcode 10.x and build it
 
 ## About this app
-In iOS’s Portrait mode, you can take beautiful photos that keep your subject sharp while blurring the background. This so-called bokeh effect can be done by using Depth.  
+In iOS’s Portrait mode, you can take beautiful photos that keep your subject sharp while blurring the background.   
+This so-called bokeh effect can be done by using Depth.  
 In contrast, this app attempts to make Depth-less 2D images into Portrait mode by following steps.
 
 
