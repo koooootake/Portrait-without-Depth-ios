@@ -5,7 +5,7 @@
 try! Swift 2019 demo app that converts Depth-less 2D images into Portrait mode.
 
 ## How to build
-1. Download `opencv2.framework` from [here](https://opencv.org/releases.html) v3.4.5, then put it into this folder.
+1. Download `opencv2.framework` from [here](https://opencv.org/releases.html) **v3.4.5 iOS pack**, then put it into this folder.
 2. Open `Portrait.xcworkspace` with Xcode 10.x and build it
 
 ## About this app
