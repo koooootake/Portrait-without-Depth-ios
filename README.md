@@ -5,7 +5,7 @@
 try! Swift 2019 demo app that converts Depth-less 2D images into Portrait mode.
 
 ## How to build
-1. Download `opencv2.framework` from [here](https://opencv.org/releases.html) **v3.4.5 iOS pack**, then put it into this folder.
+1. Download `opencv2.framework` from [here](https://opencv.org/releases.html) **v3.4.x iOS pack**, then put it into this folder.
 2. Open `Portrait.xcworkspace` with Xcode 10.x and build it
 
 ## About this app
@@ -47,7 +47,7 @@ I implemented an adjusting function to blur an area.
 before ← → after  
 <img src="https://user-images.githubusercontent.com/12197538/54493659-dea4e480-4915-11e9-90d0-4af7315254e9.png" width="300"> <img src="https://user-images.githubusercontent.com/12197538/54493650-c6cd6080-4915-11e9-86c7-5e20e705bbad.jpg" width="300">
 
-Please give it a try ! 
+Please give it a try !
 
 
 
