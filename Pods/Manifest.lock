@@ -5,7 +5,7 @@ DEPENDENCIES:
   - CropViewController
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - CropViewController
 
 SPEC CHECKSUMS:
@@ -13,4 +13,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: e13ba84fe02e3a116ee061f7eed9d05e77ee49ca
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.8.4
