@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="5lM-R2-zPC">
-    <device id="retina5_9" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="5lM-R2-zPC">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -181,7 +180,7 @@
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xp7-83-Cn6">
-                            <rect key="frame" x="0.0" y="76" width="375" height="40"/>
+                            <rect key="frame" x="0.0" y="110" width="375" height="40"/>
                             <subviews>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9HO-YF-LFW" customClass="CustomButton" customModule="Portrait" customModuleProvider="target">
                                     <rect key="frame" x="0.0" y="4" width="375" height="32"/>
@@ -204,20 +203,20 @@
                             </constraints>
                         </view>
                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="RfK-Zj-8wI">
-                            <rect key="frame" x="16" y="8" width="343" height="52"/>
+                            <rect key="frame" x="16" y="8" width="343" height="86"/>
                             <subviews>
                                 <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="50" minValue="1" maxValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="aOu-LS-j4H">
-                                    <rect key="frame" x="-2" y="0.0" width="347" height="12.666666666666666"/>
+                                    <rect key="frame" x="-2" y="0.0" width="347" height="26.333333333333332"/>
                                     <color key="minimumTrackTintColor" name="GBlue"/>
                                     <connections>
                                         <action selector="drawPenSizeSliderValueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="Maa-Mk-E8B"/>
                                     </connections>
                                 </slider>
                                 <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="pah-f0-AdW">
-                                    <rect key="frame" x="0.0" y="15.666666666666668" width="343" height="36.333333333333329"/>
+                                    <rect key="frame" x="0.0" y="29.333333333333339" width="343" height="56.666666666666657"/>
                                     <subviews>
                                         <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="gsx-Ky-3gi">
-                                            <rect key="frame" x="0.0" y="0.0" width="200.66666666666666" height="37.333333333333336"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="230" height="57.666666666666664"/>
                                             <segments>
                                                 <segment title="Subject"/>
                                                 <segment title="Background"/>
@@ -227,7 +226,7 @@
                                             </connections>
                                         </segmentedControl>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WVR-yr-0zR" customClass="CustomButton" customModule="Portrait" customModuleProvider="target">
-                                            <rect key="frame" x="212.66666666666663" y="0.0" width="130.33333333333337" height="36.333333333333336"/>
+                                            <rect key="frame" x="242" y="0.0" width="101" height="56.666666666666664"/>
                                             <state key="normal" image="baseline_hasami_32pt"/>
                                             <userDefinedRuntimeAttributes>
                                                 <userDefinedRuntimeAttribute type="boolean" keyPath="isScaleAspectFit" value="YES"/>
@@ -257,17 +256,17 @@
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <subviews>
                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="lnz-u2-Vi4">
-                            <rect key="frame" x="16" y="44" width="343" height="72"/>
+                            <rect key="frame" x="16" y="44" width="343" height="106"/>
                             <subviews>
                                 <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="50" minValue="0.0" maxValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="N0Y-p9-ZeZ">
-                                    <rect key="frame" x="-2" y="0.0" width="347" height="29"/>
+                                    <rect key="frame" x="-2" y="0.0" width="347" height="63"/>
                                     <connections>
                                         <action selector="blurSizeSliderTouchUpInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lR3-Sn-Wfl"/>
                                         <action selector="blurSizeSliderTouchUpOutside:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="0Uo-1F-7q6"/>
                                     </connections>
                                 </slider>
                                 <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="MvO-k8-whA">
-                                    <rect key="frame" x="0.0" y="32" width="343" height="40"/>
+                                    <rect key="frame" x="0.0" y="66" width="343" height="40"/>
                                     <subviews>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="aav-zc-rfd" customClass="CustomButton" customModule="Portrait" customModuleProvider="target">
                                             <rect key="frame" x="0.0" y="0.0" width="109" height="40"/>
@@ -402,10 +401,10 @@
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Flh-Ju-yqg">
-                            <rect key="frame" x="0.0" y="76" width="375" height="40"/>
+                            <rect key="frame" x="0.0" y="110" width="375" height="40"/>
                             <subviews>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nDs-GG-48D" customClass="CustomButton" customModule="Portrait" customModuleProvider="target">
-                                    <rect key="frame" x="16" y="4" width="124" height="32"/>
+                                    <rect key="frame" x="16" y="4" width="88" height="32"/>
                                     <state key="normal" image="round_close_36pt"/>
                                     <userDefinedRuntimeAttributes>
                                         <userDefinedRuntimeAttribute type="boolean" keyPath="isScaleAspectFit" value="YES"/>
@@ -415,7 +414,7 @@
                                     </connections>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v5I-gh-emu" customClass="CustomButton" customModule="Portrait" customModuleProvider="target">
-                                    <rect key="frame" x="235" y="4" width="124" height="32"/>
+                                    <rect key="frame" x="271" y="4" width="88" height="32"/>
                                     <state key="normal" image="round_check_36pt"/>
                                     <userDefinedRuntimeAttributes>
                                         <userDefinedRuntimeAttribute type="boolean" keyPath="isScaleAspectFit" value="YES"/>
@@ -437,10 +436,10 @@
                             </constraints>
                         </view>
                         <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Gvu-D1-LlW">
-                            <rect key="frame" x="16" y="8" width="343" height="52"/>
+                            <rect key="frame" x="16" y="8" width="343" height="86"/>
                             <subviews>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9nb-7B-i70" customClass="CustomButton" customModule="Portrait" customModuleProvider="target">
-                                    <rect key="frame" x="0.0" y="0.0" width="343" height="52"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="343" height="86"/>
                                     <state key="normal" image="round_refresh_36pt"/>
                                     <userDefinedRuntimeAttributes>
                                         <userDefinedRuntimeAttribute type="boolean" keyPath="isScaleAspectFit" value="YES"/>
@@ -486,14 +485,14 @@
         </scene>
     </scenes>
     <resources>
-        <image name="baseline_hasami_32pt" width="96" height="96"/>
-        <image name="round_add_24pt" width="72" height="72"/>
-        <image name="round_check_36pt" width="108" height="108"/>
-        <image name="round_close_36pt" width="108" height="108"/>
-        <image name="round_compare_24pt" width="72" height="72"/>
-        <image name="round_crop_24pt" width="72" height="72"/>
-        <image name="round_refresh_36pt" width="108" height="108"/>
-        <image name="sample.png" width="800" height="446"/>
+        <image name="baseline_hasami_32pt" width="32" height="32"/>
+        <image name="round_add_24pt" width="24" height="24"/>
+        <image name="round_check_36pt" width="36" height="36"/>
+        <image name="round_close_36pt" width="36" height="36"/>
+        <image name="round_compare_24pt" width="24" height="24"/>
+        <image name="round_crop_24pt" width="24" height="24"/>
+        <image name="round_refresh_36pt" width="36" height="36"/>
+        <image name="sample.png" width="1000" height="564"/>
         <namedColor name="GBlack">
             <color white="0.10000000149011612" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </namedColor>
