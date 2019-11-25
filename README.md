@@ -52,7 +52,7 @@ Please give it a try !
 
 
 ## Requirement
-Xcode 10.x  
+Xcode 10.x+ 
 iOS 12.0+
 
 ## Author
