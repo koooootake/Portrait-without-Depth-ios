@@ -95,7 +95,7 @@ open class CropViewController: UIViewController, TOCropViewControllerDelegate {
      The view controller's delegate that will receive the resulting
      cropped image, as well as crop information.
     */
-    public var delegate: CropViewControllerDelegate? {
+    public weak var delegate: CropViewControllerDelegate? {
         didSet { self.setUpDelegateHandlers() }
     }
     
@@ -557,6 +557,7 @@ open class CropViewController: UIViewController, TOCropViewControllerDelegate {
 
 extension CropViewController {
     fileprivate func setUpCropController() {
+        modalPresentationStyle = .fullScreen
         addChild(toCropViewController)
         transitioningDelegate = (toCropViewController as! UIViewControllerTransitioningDelegate)
         toCropViewController.delegate = self
